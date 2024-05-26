@@ -1,18 +1,13 @@
 import "./App.css";
 import ListGroup from "./components/ListGroup";
 import Navbar from "./components/nav_bar";
+import Routes from './routes/Route';
 
 function App() {
   return (
-    <div>
-       <Navbar></Navbar>
-      <h1 className="">Counter</h1>
-      <p>Count: </p>
-
-      <ListGroup>
-
-      </ListGroup>
-    </div>
+    <div className="App">
+    <Routes />
+  </div>
 
     
   );
