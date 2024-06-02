@@ -1,0 +1,28 @@
+.movingHeader {
+    position: relative;
+    text-align: center;
+   
+    margin: 0 auto; 
+    padding: 2rem; 
+    background-color: #ffffff; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.movingHeader span {
+    display: inline-block;
+    margin-left: -360px; 
+    animation: slidein 7s forwards; 
+}
+
+@keyframes slidein {
+    0% {
+        margin-left: -1560px;
+    }
+    50% {
+        margin-left: 0;
+    }
+    100% {
+        margin-left: 0; 
+    }
+}
