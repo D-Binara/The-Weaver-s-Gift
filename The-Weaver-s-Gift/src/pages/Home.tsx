@@ -1,5 +1,4 @@
 import "../assets/styles/Home.css";
-import GodCard from "../components/GodCard";
 import MovingHeader from "../components/MovingHeader";
 
 const Home: React.FC = () => {

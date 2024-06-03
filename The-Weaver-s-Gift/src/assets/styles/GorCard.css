@@ -1,0 +1,39 @@
+@keyframes magic-glow {
+  0% {
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5), 0 0 20px rgba(0, 255, 255, 0.5), 0 0 30px rgba(0, 255, 255, 0.5), 0 0 40px rgba(0, 255, 255, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.7), 0 0 30px rgba(0, 255, 255, 0.7), 0 0 40px rgba(0, 255, 255, 0.7), 0 0 50px rgba(0, 255, 255, 0.7);
+  }
+  100% {
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5), 0 0 20px rgba(0, 255, 255, 0.5), 0 0 30px rgba(0, 255, 255, 0.5), 0 0 40px rgba(0, 255, 255, 0.5);
+  }
+}
+
+.card-magic {
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.card-magic:hover {
+  transform: scale(1.05);
+}
+
+.card-magic::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background: rgba(0, 255, 255, 0.2);
+  filter: blur(15px);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  animation: magic-glow 2s infinite;
+}
+
+.card-magic:hover::before {
+  opacity: 1;
+}
