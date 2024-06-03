@@ -5,14 +5,7 @@ import MovingHeader from "../components/MovingHeader";
 const Home: React.FC = () => {
   return (
     <div className=" backgroundImage">
-      <h1>This is Home page</h1>
-      <GodCard
-        name="Enki"
-        image="https://example.com/enki.jpg"
-        description="Enki is the Sumerian god of water, knowledge, mischief, crafts, and creation. He is often depicted with flowing water and fish."
-      />
-
-      <MovingHeader content="test" />
+      <MovingHeader content="The Tapestry of Creation: Ancient Mesopotamian Myths" />
     </div>
   );
 };

@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Profile from "./pages/Profile";
 import Story from "./pages/Story";
+import Gods from "./pages/Gods";
 
 const App: React.FC = () => {
   return (
@@ -17,6 +18,7 @@ const App: React.FC = () => {
           <Route path="/about" element={<About />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/story" element={<Story />} />
+          <Route path="/gods" element={<Gods />} />
         </Routes>
         <Footer />
       </div>
