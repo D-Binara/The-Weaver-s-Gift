@@ -19,3 +19,4 @@ jobs:
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_THE_WEAVER_S_GIFT }}
           channelId: live
           projectId: the-weaver-s-gift
+          entryPoint: The-Weaver-s-Gift
