@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: cd The-Weaver-s-Gift && npm ci
-      - run: cd The-Weaver-s-Gift && npm run build --if-present
+      - run: cd The-Weaver-s-Gift && npm run dev
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
