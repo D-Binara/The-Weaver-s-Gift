@@ -11,10 +11,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: npm ci && npm run build
+      - run: npm ci
+      - run: npm run build --if-present
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_THE_WEAVER_S_GIFT }}
           channelId: live
           projectId: the-weaver-s-gift
+          entryPoint: The-Weaver-s-Gift
