@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "The-WEAVER-S-GIFT",
+    "public": "The-Weaver-s-Gift",
     "ignore": [
       "firebase.json",
       "**/.*",
