@@ -1,5 +1,5 @@
 .backgroundImage {
-    background-image: url('src/assets/images/castle.png');
+    background-image: url('/src/assets/images/castle.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
