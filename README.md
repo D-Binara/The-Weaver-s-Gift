@@ -22,3 +22,49 @@ Together, Nammu and Enki worked in harmony, their combined efforts bringing fort
 And so, through the sacred art of weaving, the goddess Nammu and her son Enki brought order and beauty to the cosmos, setting in motion the great tapestry of existence that would bind all living things together in a web of interconnectedness and harmony.
 
 To this day, the legacy of their creation endures, reminding mortals of the divine wisdom that resides within the fabric of the universe, waiting to be unraveled by those who seek enlightenment and understanding.
+
+## Purpose of This Project
+
+The purpose of The-Weaver-s-Gift project is to create an ancient and magical-looking website using open-source contributions. This project aims not only to develop a visually stunning web platform but also to share knowledge about how to engage in open-source projects. Additionally, it's an opportunity for contributors to have fun while exploring and creating within the realms of ancient mythology and craftsmanship.
+
+## How to Run the Project
+
+To run this project locally, follow these steps:
+
+1. Clone the repository to your local machine using Git:
+
+    ```bash
+    git clone https://github.com/your-username/The-Weaver-s-Gift.git
+    ```
+
+2. Navigate into the project directory:
+
+    ```bash
+    cd The-Weaver-s-Gift
+    ```
+
+3. Install dependencies using your preferred package manager (e.g., npm or yarn):
+
+    ```bash
+    npm install
+    ```
+
+    or
+
+    ```bash
+    yarn install
+    ```
+
+4. Once the dependencies are installed, start the development server:
+
+    ```bash
+    npm run dev
+    ```
+
+    or
+
+    ```bash
+    yarn dev
+    ```
+
+5. Open your web browser and navigate to `http://localhost:3000` to view the website.
