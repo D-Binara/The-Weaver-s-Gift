@@ -1,0 +1,18 @@
+.backgroundImage {
+    background-image: url('/src/assets/images/castle.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 170vh;
+    width: 100%;
+}
+
+.card-hover-effect {
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+}
+
+.card-hover-effect:hover {
+    transform: scale(1.05); /* Slight scaling effect */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Soft shadow on hover */
+    border-color: rgba(255, 255, 255, 0.5); /* Glowing border */
+    border-width: 2px;
+}
