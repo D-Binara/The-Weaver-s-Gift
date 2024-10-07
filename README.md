@@ -1,11 +1,22 @@
 # The-Weaver-s-Gift
 
-
 Culture: Ancient Mesopotamia
 
 Genre: Myth
 
 Theme: Creation and Wisdom
+
+## Table of Contents
+1. [Description](#description)
+2. [Purpose of This Project](#purpose-of-this-project)
+3. [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [How to Run the Project](#how-to-run-the-project)
+4. [Contributing](#contributing)
+5. [Guidelines](#guidelines)
+6. [License](#license)
+
+## Description
 
 In the beginning, when the earth was young and the heavens were new, there existed only chaos and darkness. In this primordial realm, there dwelled the great goddess Nammu, the Mother of All, who floated upon the waters of creation.
 
@@ -27,7 +38,14 @@ To this day, the legacy of their creation endures, reminding mortals of the divi
 
 The purpose of The-Weaver-s-Gift project is to create an ancient and magical-looking website using open-source contributions. This project aims not only to develop a visually stunning web platform but also to share knowledge about how to engage in open-source projects. Additionally, it's an opportunity for contributors to have fun while exploring and creating within the realms of ancient mythology and craftsmanship.
 
-## How to Run the Project
+## Getting Started
+### Prerequisites
+Before running this project, ensure you have the following installed on your machine:
+
+Node.js (v14 or higher)
+npm or Yarn (for dependency management)
+
+### How to Run the Project
 
 To run this project locally, follow these steps:
 
@@ -68,3 +86,31 @@ To run this project locally, follow these steps:
     ```
 
 5. Open your web browser and navigate to `http://localhost:3000` to view the website.
+
+## Contributing
+
+We welcome contributions! To contribute to The Weaver's Gift, please follow these steps:
+
+1. Check out the issues labeled with hacktoberfest to find tasks suitable for contribution.
+2. Fork the repository to your own GitHub account.
+3. Create a new branch for your feature or fix:
+```bash
+git checkout -b my-feature-branch
+```
+4. Make your changes and commit them:
+```bash
+git commit -m "Add my feature"
+```
+5. Push your changes to your fork:
+```bash
+git push origin my-feature-branch
+```
+6. Create a Pull Request on the original repository, and ensure you link to the issue you are addressing if applicable.
+
+## Guidelines
+- Follow the project's coding style and conventions.
+- Write clear commit messages.
+- Ensure your code is well-documented.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for more details.
