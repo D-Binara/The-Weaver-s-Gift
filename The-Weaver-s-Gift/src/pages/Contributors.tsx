@@ -1,6 +1,6 @@
 import React from 'react';
 
-const About: React.FC = () => {
+const Contributors: React.FC = () => {
   return (
     <main>
       <div className="w-64 h-64 bg-neutral-800 group relative rounded-xl flex justify-center items-center overflow-hidden">
@@ -16,4 +16,4 @@ const About: React.FC = () => {
   );
 }
 
-export default About;
+export default Contributors;
