@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
-import About from "./pages/About";
+import Contributors from "./pages/Contributors";
 import Profile from "./pages/Profile";
 import Story from "./pages/Story";
 import Gods from "./pages/Gods";
@@ -15,7 +15,7 @@ const App: React.FC = () => {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/contributors" element={<Contributors />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/story" element={<Story />} />
           <Route path="/gods" element={<Gods />} />
