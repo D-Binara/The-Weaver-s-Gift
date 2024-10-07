@@ -42,8 +42,8 @@ The purpose of The-Weaver-s-Gift project is to create an ancient and magical-loo
 ### Prerequisites
 Before running this project, ensure you have the following installed on your machine:
 
-Node.js (v14 or higher)
-npm or Yarn (for dependency management)
+- Node.js (v14 or higher)
+- npm or Yarn (for dependency management)
 
 ### How to Run the Project
 
