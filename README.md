@@ -17,6 +17,7 @@ Theme: Creation and Wisdom
 6. [License](#license)
 
 ## Description
+![Home Page](The-Weaver-s-Gift/src/assets/images/Screenshots/Home-page.png "Home Page")
 
 In the beginning, when the earth was young and the heavens were new, there existed only chaos and darkness. In this primordial realm, there dwelled the great goddess Nammu, the Mother of All, who floated upon the waters of creation.
 
@@ -34,9 +35,13 @@ And so, through the sacred art of weaving, the goddess Nammu and her son Enki br
 
 To this day, the legacy of their creation endures, reminding mortals of the divine wisdom that resides within the fabric of the universe, waiting to be unraveled by those who seek enlightenment and understanding.
 
+![Gods Section](The-Weaver-s-Gift/src/assets/images/Screenshots/Gods-Page.png "Gods Section")
+
 ## Purpose of This Project
 
 The purpose of The-Weaver-s-Gift project is to create an ancient and magical-looking website using open-source contributions. This project aims not only to develop a visually stunning web platform but also to share knowledge about how to engage in open-source projects. Additionally, it's an opportunity for contributors to have fun while exploring and creating within the realms of ancient mythology and craftsmanship.
+
+![Story Page](The-Weaver-s-Gift/src/assets/images/Screenshots/Story-Page.png "Story Page")
 
 ## Getting Started
 ### Prerequisites
