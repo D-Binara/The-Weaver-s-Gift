@@ -1,0 +1,42 @@
+.github-user-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #e1e4e8;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    max-width: 300px;
+    margin: 10px;
+    background-color: #fff;
+}
+
+.github-user-card:hover {
+    transform: scale(1.05);
+}
+
+.card-content {
+    text-align: center;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 12px;
+}
+
+.username {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #0366d6;
+}
+
+.github-user-card-a {
+    text-decoration: none;
+    color: #0366d6;
+    font-weight: bold;
+    margin-top: 8px;
+    display: inline-block;
+}
