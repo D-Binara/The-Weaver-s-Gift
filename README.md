@@ -15,6 +15,7 @@ Theme: Creation and Wisdom
 4. [Contributing](#contributing)
 5. [Guidelines](#guidelines)
 6. [License](#license)
+7. [Contributors](#contributors) 
 
 ## Description
 ![Home Page](The-Weaver-s-Gift/src/assets/images/Screenshots/Home-page.png "Home Page")
@@ -119,3 +120,36 @@ git push origin my-feature-branch
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
+
+## Contributors
+Thanks to all the amazing contributors who have helped bring The Weaver's Gift to life! 🎉
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/D-Binara">
+        <img src="https://github.com/D-Binara.png" width="100px;" alt="D-Binara"/>
+        <br /><sub><b>D-Binara</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Matheus-Parreira">
+        <img src="https://github.com/Matheus-Parreira.png" width="100px;" alt="Matheus-Parreira"/>
+        <br /><sub><b>Matheus-Parreira</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/ChaudaryHammad">
+        <img src="https://github.com/ChaudaryHammad.png" width="100px;" alt="ChaudaryHammad"/>
+        <br /><sub><b>ChaudaryHammad</b></sub>
+      </a>
+    </td>
+     <td align="center">
+      <a href="https://github.com/trungnguyenM01">
+        <img src="https://github.com/trungnguyenM01.png" width="100px;" alt="trungnguyenM01"/>
+        <br /><sub><b>trungnguyenM01</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
