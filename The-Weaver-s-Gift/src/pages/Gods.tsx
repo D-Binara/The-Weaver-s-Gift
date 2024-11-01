@@ -101,41 +101,6 @@ const Gods: React.FC = () => {
             { name: "wisdom", color: "#fbbf24" },
           ]}
         />
-        <GodCard
-          name="Enlil"
-          image={enkiImage}
-          description="Enlil is the god of storms who held a sway over earth's fertility and weather "
-        />
-        <GodCard
-          name="Ishtar"
-          image={enkiImage}
-          description="Ishtar embodies duality of love and war, life and death."
-        />
-        <GodCard
-          name="Shamash"
-          image={enkiImage}
-          description="Also known as Utu represented sun and is seen as god of justice and fairness."
-        />
-        <GodCard
-          name="Nanna"
-          image={enkiImage}
-          description="Nanna represented moon and the cyclical nature of time "
-        />
-        <GodCard
-          name="Marduk"
-          image={enkiImage}
-          description="National god of Babylon who slays the primordial goddess Tiamat to create the cosmos "
-        />
-        <GodCard
-          name="Nergal"
-          image={enkiImage}
-          description=" Nergal the ruler of the underworld was associated with plagues, war, and fire."
-        />
-        <GodCard
-          name="ninhursag"
-          image={enkiImage}
-          description="Known as Mistress of Mountain Ranges Ninhursag was a nurturing mother figure and a goddess of the earth"
-        />
       </div>
     </div>
   );
