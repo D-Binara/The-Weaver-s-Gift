@@ -7,6 +7,7 @@ import isaImage from "../assets/images/Ishara.png"
 import zaratuImage from "../assets/images/zaratu.png"
 import lahamuImage from "../assets/images/lahamu.png"
 import anukharImage from "../assets/images/Anukhar.png"
+import nammu from "../assets/images/Nammu,.png"
 
 const Gods: React.FC = () => {
   return (
@@ -19,16 +20,19 @@ const Gods: React.FC = () => {
           labels={[
             { name: "mythology", color: "#3b82f6" },
             { name: "ancient", color: "#10b981" },
-            { name: "legend", color: "#ef4444" },
+            { name: "wisdom", color: "#818cf8" },
+            { name: "water", color: "#60a5fa" },
           ]}
         />
         <GodCard
-          name="Nammu - The Mother of All"
-          image={enkiImage}
-          description="Nammu, the great goddess of creation, floated upon the waters of the primordial realm..."
+          name="Nammu"
+          image={nammu}
+          description="Nammu, the Mother of All, is the primordial goddess of creation and the source from which all life and the cosmos emerged. She nurtures the realms of existence with her boundless essence, embodying the ancient foundation of all creation."
           labels={[
-            { name: "creation", color: "#8b5cf6" },
-            { name: "primordial", color: "#f59e0b" },
+            { name: "ancient", color: "#10b981" },
+            { name: "creation", color: "#d97706" },
+            { name: "life-source", color: "#fbbf24" },
+            { name: "primordial", color: "#a78bfa" },
           ]}
         />
        <GodCard
@@ -36,9 +40,10 @@ const Gods: React.FC = () => {
           image={eliImage}
           description="The tempestuous goddess of winds and storms, embodying the duality of destruction and creation."
           labels={[
-            { name: "elements", color: "#3b82f6" },
-            { name: "weather", color: "#60a5fa" },
-            { name: "change", color: "#f59e0b" },
+            { name: "legend", color: "#ef4444" },
+            { name: "wind-force", color: "#60a5fa" },
+            { name: "tempest", color: "#3b82f6" },
+            { name: "power", color: "#f87171" },
           ]}
         />
         <GodCard
@@ -46,9 +51,10 @@ const Gods: React.FC = () => {
           image={ninsulImage}
           description="The compassionate god of healing and renewal, known for restoring vitality and mending both physical and spiritual wounds."
           labels={[
+            { name: "ancient", color: "#10b981" },
             { name: "healing", color: "#34d399"},
-            { name: "renewal", color: "#6ee7b7"},
-            { name: "compassion", color: "#facc15"}
+            { name: "restoration", color: "#6ee7b7"},
+            { name: "compassion", color: "#facc15"},
           ]}
         />
         <GodCard 
@@ -56,9 +62,10 @@ const Gods: React.FC = () => {
           image={isaImage}
           description="The revered goddess of truth and justice, guiding mortals with clarity and a steadfast sense of morality."
           labels={[
+            { name: "mythology", color: "#3b82f6" },
             { name: "truth", color: "#4b5563"},
-            { name: "wishdom", color: "#f97316"},
-            { name: "justice", color: "#dc7633" }
+            { name: "clarity", color: "#f97316"},
+            { name: "justice", color: "#dc7633" },
           ]}
         />
         <GodCard
@@ -66,9 +73,10 @@ const Gods: React.FC = () => {
           image={zaratuImage}
           description="The nurturing god of agriculture and fertility, ensuring the land’s abundance and the prosperity of all who tend it."
           labels={[
+            { name: "legend", color: "#ef4444" },
             { name: "agriculture", color: "#84cc16" },
             { name: "fertility", color: "#a3e635" },
-            { name: "nature", color: "#34d399" },
+            { name: "harvest", color: "#34d399" },
           ]}
         />
         <GodCard
@@ -76,9 +84,10 @@ const Gods: React.FC = () => {
           image={lahamuImage}
           description="The enigmatic god of shadows and secrets, guiding mortals through hidden paths and unveiling mysteries of the unknown."
           labels={[
+            { name: "ancient", color: "#10b981" },
             { name: "mystery", color: "#6b7280" },
             { name: "secrets", color: "#4b5563" },
-            { name: "wisdom", color: "#8b5cf6" },
+            { name: "insight", color: "#8b5cf6" },
           ]}
         />
         <GodCard 
@@ -86,8 +95,9 @@ const Gods: React.FC = () => {
           image={anukharImage}
           description="The wise god of the cosmos and time, weaving the fabric of existence and guiding the flow of moments in the universe."
           labels={[
+            { name: "mythology", color: "#3b82f6" },
             { name: "cosmos", color: "#60a5fa" },
-            { name: "time", color: "#818cf8" },
+            { name: "eternity", color: "#818cf8" },
             { name: "wisdom", color: "#fbbf24" },
           ]}
         />
