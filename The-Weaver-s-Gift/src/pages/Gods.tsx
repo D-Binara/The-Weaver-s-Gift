@@ -8,8 +8,9 @@ import zaratuImage from "../assets/images/zaratu.png"
 import lahamuImage from "../assets/images/lahamu.png"
 import anukharImage from "../assets/images/Anukhar.png"
 import nammu from "../assets/images/Nammu,.png"
+import athena from "../assets/images/Athena.png"
 
-const Gods: React.FC = () => {
+function Gods() {
   return (
     <div className="container mx-auto py-8 ">
       <div className="flex gap-16 justify-center flex-wrap lg:p-0 px-4 ">
@@ -22,8 +23,7 @@ const Gods: React.FC = () => {
             { name: "ancient", color: "#10b981" },
             { name: "wisdom", color: "#818cf8" },
             { name: "water", color: "#60a5fa" },
-          ]}
-        />
+          ]} />
         <GodCard
           name="Nammu"
           image={nammu}
@@ -33,9 +33,8 @@ const Gods: React.FC = () => {
             { name: "creation", color: "#d97706" },
             { name: "life-source", color: "#fbbf24" },
             { name: "primordial", color: "#a78bfa" },
-          ]}
-        />
-       <GodCard
+          ]} />
+        <GodCard
           name="Lilith - Goddess of Winds and Storms"
           image={eliImage}
           description="The tempestuous goddess of winds and storms, embodying the duality of destruction and creation."
@@ -44,30 +43,27 @@ const Gods: React.FC = () => {
             { name: "wind-force", color: "#60a5fa" },
             { name: "tempest", color: "#3b82f6" },
             { name: "power", color: "#f87171" },
-          ]}
-        />
+          ]} />
         <GodCard
           name="Ninsul - God of Healing and Renewal"
           image={ninsulImage}
           description="The compassionate god of healing and renewal, known for restoring vitality and mending both physical and spiritual wounds."
           labels={[
             { name: "ancient", color: "#10b981" },
-            { name: "healing", color: "#34d399"},
-            { name: "restoration", color: "#6ee7b7"},
-            { name: "compassion", color: "#facc15"},
-          ]}
-        />
-        <GodCard 
+            { name: "healing", color: "#34d399" },
+            { name: "restoration", color: "#6ee7b7" },
+            { name: "compassion", color: "#facc15" },
+          ]} />
+        <GodCard
           name="Ishara - Goddess of Truth and Justice"
           image={isaImage}
           description="The revered goddess of truth and justice, guiding mortals with clarity and a steadfast sense of morality."
           labels={[
             { name: "mythology", color: "#3b82f6" },
-            { name: "truth", color: "#4b5563"},
-            { name: "clarity", color: "#f97316"},
+            { name: "truth", color: "#4b5563" },
+            { name: "clarity", color: "#f97316" },
             { name: "justice", color: "#dc7633" },
-          ]}
-        />
+          ]} />
         <GodCard
           name="Zaratu - God of Agriculture and Fertility"
           image={zaratuImage}
@@ -77,8 +73,7 @@ const Gods: React.FC = () => {
             { name: "agriculture", color: "#84cc16" },
             { name: "fertility", color: "#a3e635" },
             { name: "harvest", color: "#34d399" },
-          ]}
-        />
+          ]} />
         <GodCard
           name="Lahamu - God of Shadows and Secrets"
           image={lahamuImage}
@@ -88,9 +83,8 @@ const Gods: React.FC = () => {
             { name: "mystery", color: "#6b7280" },
             { name: "secrets", color: "#4b5563" },
             { name: "insight", color: "#8b5cf6" },
-          ]}
-        />
-        <GodCard 
+          ]} />
+        <GodCard
           name="Anu-Khar, God of Cosmos and Time"
           image={anukharImage}
           description="The wise god of the cosmos and time, weaving the fabric of existence and guiding the flow of moments in the universe."
@@ -99,11 +93,20 @@ const Gods: React.FC = () => {
             { name: "cosmos", color: "#60a5fa" },
             { name: "eternity", color: "#818cf8" },
             { name: "wisdom", color: "#fbbf24" },
-          ]}
-        />
+          ]} />
+        <GodCard
+          name="Athena"
+          image={athena}
+          description="Athena is the Olympian goddess of wisdom, war strategy, and crafts. Born from Zeus's forehead fully armored, she is revered for her intelligence and skill in warfare and weaving."
+          labels={[
+            { name: "wisdom", color: "#3b82f6" },
+            { name: "strategic warfare", color: "#60a5fa" },
+            { name: "craftsmanship", color: "#818cf8" },
+            { name: "weaving", color: "#fbbf24" },
+          ]} />
       </div>
     </div>
   );
-};
+}
 
 export default Gods;
