@@ -150,6 +150,12 @@ Thanks to all the amazing contributors who have helped bring The Weaver's Gift t
         <br /><sub><b>trungnguyenM01</b></sub>
       </a>
     </td>
+    <td align="center">
+      <a href="https://github.com/nsrabt">
+        <img src="https://github.com/nsrabt.png" width="100px;" alt="nsrabt"/>
+        <br /><sub><b>nsrabt</b></sub>
+      </a>
+    </td>
   </tr>
 </table>
 
