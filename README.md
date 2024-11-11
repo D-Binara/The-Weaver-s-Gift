@@ -156,6 +156,12 @@ Thanks to all the amazing contributors who have helped bring The Weaver's Gift t
         <br /><sub><b>nsrabt</b></sub>
       </a>
     </td>
+    <td align="center">
+      <a href="https://github.com/HtcYlmz">
+        <img src="https://github.com/HtcYlmz.png" width="100px;" alt="HtcYlmz"/>
+        <br /><sub><b>HtcYlmz</b></sub>
+      </a>
+    </td>
   </tr>
 </table>
 

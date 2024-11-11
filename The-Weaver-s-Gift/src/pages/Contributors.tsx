@@ -10,6 +10,7 @@ const Contributors: React.FC = () => {
           <GitHubUserCard username="ChaudaryHammad" />
           <GitHubUserCard username="trungnguyenM01" />
           <GitHubUserCard username="nsrabt" />
+          <GitHubUserCard username="HtcYlmz" />
       </div>
     </main>
   );
