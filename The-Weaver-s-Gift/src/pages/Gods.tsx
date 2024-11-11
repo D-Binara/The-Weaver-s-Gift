@@ -8,6 +8,7 @@ import zaratuImage from "../assets/images/zaratu.png"
 import lahamuImage from "../assets/images/lahamu.png"
 import anukharImage from "../assets/images/Anukhar.png"
 import nammu from "../assets/images/Nammu,.png"
+import elaraImage from "../assets/images/Elara.png";
 
 const Gods: React.FC = () => {
   return (
@@ -99,6 +100,17 @@ const Gods: React.FC = () => {
             { name: "cosmos", color: "#60a5fa" },
             { name: "eternity", color: "#818cf8" },
             { name: "wisdom", color: "#fbbf24" },
+          ]}
+        />
+        <GothCard 
+          name="Elara, the Weaver of Dreams"
+          image={elaraImage} 
+          description="Elara is the mystical weaver of dreams, who brings the stories of the night to life in intricate patterns. Her threads connect visions, memories, and fantasies."
+          labels={[
+            { name: "mythology", color: "#3b82f6" },
+            { name: "dreams", color: "#60a5fa" },
+            { name: "creativity", color: "#818cf8" },
+            { name: "mysticism", color: "#fbbf24" }
           ]}
         />
       </div>
