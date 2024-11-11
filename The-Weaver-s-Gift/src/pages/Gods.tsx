@@ -8,7 +8,7 @@ import zaratuImage from "../assets/images/zaratu.png"
 import lahamuImage from "../assets/images/lahamu.png"
 import anukharImage from "../assets/images/Anukhar.png"
 import nammu from "../assets/images/Nammu,.png"
-import athena from "../assets/images/Athena.png"
+import elaraImage from "../assets/images/Elara.png";
 
 function Gods() {
   return (
@@ -94,16 +94,17 @@ function Gods() {
             { name: "eternity", color: "#818cf8" },
             { name: "wisdom", color: "#fbbf24" },
           ]} />
-        <GodCard
-          name="Athena"
-          image={athena}
-          description="Athena is the Olympian goddess of wisdom, war strategy, and crafts. Born from Zeus's forehead fully armored, she is revered for her intelligence and skill in warfare and weaving."
+       <GodCard 
+          name="Elara, the Weaver of Dreams"
+          image={elaraImage} 
+          description="Elara is the mystical weaver of dreams, who brings the stories of the night to life in intricate patterns. Her threads connect visions, memories, and fantasies."
           labels={[
-            { name: "wisdom", color: "#3b82f6" },
-            { name: "strategic warfare", color: "#60a5fa" },
-            { name: "craftsmanship", color: "#818cf8" },
-            { name: "weaving", color: "#fbbf24" },
-          ]} />
+            { name: "mythology", color: "#3b82f6" },
+            { name: "dreams", color: "#60a5fa" },
+            { name: "creativity", color: "#818cf8" },
+            { name: "mysticism", color: "#fbbf24" }
+          ]}
+        />
       </div>
     </div>
   );
