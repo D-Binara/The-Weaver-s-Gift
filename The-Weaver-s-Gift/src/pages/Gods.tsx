@@ -102,7 +102,7 @@ const Gods: React.FC = () => {
             { name: "wisdom", color: "#fbbf24" },
           ]}
         />
-        <GothCard 
+        <GodCard 
           name="Elara, the Weaver of Dreams"
           image={elaraImage} 
           description="Elara is the mystical weaver of dreams, who brings the stories of the night to life in intricate patterns. Her threads connect visions, memories, and fantasies."
